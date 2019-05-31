@@ -1,0 +1,34 @@
+
+  o->  Illumina Paired-End Sequencing Schematic
+
+
+        ^ 3′                                    ^ 3′
+        │                                       │
+        │                                       │
+        # #                                     #
+        │ │  .-,                                │
+        ║ │ ( 3 )  IndexRead#2                  │
+        ║ v  '-`   BridgeOligo                  │
+        │                                       │
+        # #                                     # #
+        ┼ │  .-,                                ┼ │  .-,
+        │ │ ( 1 )  TemplateRead#1               │ │ ( 4 )  TemplateRead#2
+        │ │  '-`   SequencingPrimer#1           │ │  '-`   SequencingPrimer#2
+        │ │                                     │ │
+        │ v                                     │ v
+        │                                       │
+        │                                       │
+        │                                       │
+        │                                       │
+        ┼                                       ┼
+        # #                                     #
+        │ │  .-,                                │
+        ║ │ ( 2 ) IndexRead#1                   │
+        ║ v  '-`  SequencingPrimer              │
+        │                                       │
+        │5′                                     │5′
+        │                                       │
+   ╭┴┴┴┴┴┴┴┴┴╮                             ╭┴┴┴┴┴┴┴┴┴╮
+   │Flow Cell│      ------> ClusterFlip    │Flow Cell│
+   ╰─────────╯                             ╰─────────╯
+   
