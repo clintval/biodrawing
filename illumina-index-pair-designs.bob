@@ -1,0 +1,18 @@
+
+  o->  Illumina Index Pair Designs
+
+
+    Tandem Design | same index on either side of insert
+
+    ---- AGCGCTAG   ------------------ Insert------------------ AGCGCTAG   ----
+    ---- TCGCGATC   ------------------ Insert------------------ TCGCGATC   ----
+
+    Tandem Complement Design | reverse complement of same index
+
+    ---- AGCGCTAG   ------------------ Insert------------------ CTAGCGCT   ----
+    ---- TCGCGATC   ------------------ Insert------------------ GATCGCGA   ----
+
+    Distinct Design | unrelated index sequences
+
+    ---- AGCGCTAG   ------------------ Insert------------------ CGTCTGCG   ----
+    ---- TCGCGATC   ------------------ Insert------------------ GCAGACGC   ----

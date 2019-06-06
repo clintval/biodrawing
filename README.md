@@ -16,12 +16,17 @@ Small sketches of common ideas with a biology or bioinformatics theme.
 First install [svgbob](https://github.com/ivanceras/svgbob), then issue a single `make` command:
 
 ```bash
-❯ make all
+❯ make rebuild
+svgbob < illumina-index-pair-designs.bob > illumina-index-pair-designs.svg
 svgbob < illumina-paired-end-sequencing-schematic.bob > illumina-paired-end-sequencing-schematic.svg
 ```
 
-### Example sketch
+### Example Sketches
 
 <p align="center">
   <img src="illumina-paired-end-sequencing-schematic.svg?sanitize=true">
+</p>
+
+<p align="center">
+  <img src="illumina-index-pair-designs.svg?sanitize=true">
 </p>
